@@ -117,7 +117,10 @@
           </div>
           <div id="contact" class="col-12 col-lg-6">
             <p><img src="images/p5/07-p5-title-3-en.png" /></p>
-            <p>
+            <form action="/webformmailer.php" method="post">
+              <input type="hidden" name="form_order" value="alpha"/>
+              <input type="hidden" name="form_delivery" value="hourly_digest"/>
+              <input type="hidden" name="form_format" value="html"/>
               <table class="table">
                 <tr>
                   <td>Name</td>
@@ -140,10 +143,10 @@
                     <button name="submit" type="submit">Submit</button>
                     <button name="reset" type="reset">Reset</button>
                   </td>
-                  
+
                 </tr>
               </table>
-            </p>
+            </form>
           </div>
           <div class="col"></div>
         </div>

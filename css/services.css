@@ -6,7 +6,7 @@
 }
 
 #content-graphic-2 {
-  background-image: url();
+  background-image: url(../images/p2/04-p2-photo.jpg);
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
@@ -15,4 +15,37 @@
 
 #content div {
   height: 100%;
+}
+
+#content-buttons {
+  height: 80vh !important;
+}
+
+#content-buttons div {
+  height: 60px;
+}
+
+#content-services{
+  background-image: url(../images/p2/04-p2-detail-pattern.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+}
+
+@media (min-width: 992px) { 
+  #content-services{
+    padding-top: 10rem;
+  }
+}
+
+@media (max-width: 991px) { 
+  #content-services{
+    padding-top: 5rem;
+  }
+}
+
+@media (max-width: 767px) { 
+  #content-services{
+    padding-top: 3rem;
+  }
 }

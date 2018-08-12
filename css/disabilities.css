@@ -1,0 +1,41 @@
+#content {
+  background-color: #ddf0fe;
+}
+
+#img-body-1 {
+  position: relative;
+  transform: translateX(4rem);
+  z-index: 2;
+}
+
+#img-body-2 {
+  position: relative;
+  transform: translateX(-4rem);
+  z-index: 2;
+}
+
+#detail {
+  background-image: url(../images/p3/03-p3-detail-pattern.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  
+  height: 100%;
+}
+
+
+#detail-title{
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translateY(-95%);
+  transform: translateX(-50%);
+}
+
+#detail-text{
+  position: absolute;
+  left: 0%;
+  top: 30%;
+  
+  font-size: 0.8rem;
+}

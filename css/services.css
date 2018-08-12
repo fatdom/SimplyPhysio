@@ -34,7 +34,7 @@
 
 @media (min-width: 992px) { 
   #content-services{
-    padding-top: 10rem;
+    padding-top: 9rem;
   }
 }
 
@@ -48,4 +48,8 @@
   #content-services{
     padding-top: 3rem;
   }
+}
+
+#description {
+  font-size: 0.8rem;
 }

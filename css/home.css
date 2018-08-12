@@ -1,0 +1,22 @@
+#content-graphic {
+  background-image: url(../images/p1/03-p1-photo-1.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+
+#content div {
+  height: 100%;
+}
+
+#content-text {
+  height: auto !important;
+}
+
+#content-text-paragraph {
+  position: relative;
+  top: 30%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+}

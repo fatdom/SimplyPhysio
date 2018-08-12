@@ -2,19 +2,10 @@
   background-color: #e7f0c1;
 }
 
-/*
-#content-graphic {
-  background-image: url(../images/p4/06-p4-intro-graphic-en-edit.png);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: contain;
-}
-*/
-
 #content div {
   height: 100%;
 }
 
 #content-text {
-  height: 7rem !important;
+  height: 8rem !important;
 }

@@ -4,3 +4,9 @@
   background-position: bottom;
   background-size: cover;
 }
+
+#container {
+  position: relative;
+  top: 40%;
+  transform: translateY(-50%);
+}

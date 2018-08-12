@@ -20,8 +20,12 @@
     width: 18px;
     height: auto;
   }
+  
+
 }
 
 #content {
   height: 100%;
+  transform: translateY(-10px);
+  position: relative;
 }

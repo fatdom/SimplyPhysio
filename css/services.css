@@ -1,0 +1,18 @@
+#content-graphic-1 {
+  background-image: url(../images/p2/04-p2-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+
+#content-graphic-2 {
+  background-image: url();
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+
+
+#content div {
+  height: 100%;
+}

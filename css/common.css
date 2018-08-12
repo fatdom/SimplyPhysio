@@ -2,8 +2,26 @@
   height: 100vh;
 }
 
-#container {
-  position: relative;
-  top: 40%;
-  transform: translateY(-50%);
+#nav-bar {
+  background-image: url(../images/common/02-index-bar-bg.png);
+  background-repeat: repeat-x;
+  background-position: bottom;
+}
+
+
+@media (min-width: 768px) { 
+  #nav-social {
+  transform: translateY(50%);
+  }
+}
+
+@media (max-width: 575px) { 
+  #nav-social img {
+    width: 18px;
+    height: auto;
+  }
+}
+
+#content {
+  height: 100%;
 }
